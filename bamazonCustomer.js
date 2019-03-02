@@ -29,20 +29,20 @@ connection.connect(function (err) {
     function runSearch() {
       inquirer
         .prompt([{
-            name: "product_id",
+            name: "productID",
             type: "input",
             message: "Please enter the product ID you would like to purchase: "
           },
           {
-            name: "product_quantity",
+            name: "productQuantity",
             type: "input",
             message: "How many would you like to buy? "
           }
         ])
         .then(function (answer) {
 
-          var input_id = answer.product_id;
-          var input_quantity = answer.product_quantity;
+          var input_id = answer.productID;
+          var input_quantity = answer.productQuantity;
 
           connection.query("SELECT stock_quantity, price FROM products WHERE item_id = " + input_id, function (err, result) {
             if (err) throw err;
