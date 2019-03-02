@@ -19,6 +19,6 @@ The customer interface allows the user to view the current inventory of store it
 
 ### Screenshot 2 - Before
 
-![db-before2](/Images/bamazonBefore.png)
+![db-before2](/Images/bamazonBefore2.png)
 
 
