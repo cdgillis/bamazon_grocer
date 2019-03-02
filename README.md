@@ -40,7 +40,7 @@ The user purchased 2 red peppers.
 
 As you can see, the database stock quantities have depleted accordingly.
 
-![after](/Images/bamazonAfter.png)
+![after](/Images/bamazonAfter1.png)
 
 
 #### Author: C.D. Gillis
