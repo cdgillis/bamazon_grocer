@@ -62,7 +62,7 @@ connection.connect(function (err) {
               console.log("\nYour grocery bill total = $" + total.toFixed(2) +
               "\n\n* * * Currently only accepting Monopoly money, BTZ, or bear hugs * * *");
             } else {
-              console.log("We're sorry, this product is out of stock. Sucks to be you!");
+              console.log("We're sorry, this product is out of stock. Sucks to be you! Try another product...");
             }
           });
         })
